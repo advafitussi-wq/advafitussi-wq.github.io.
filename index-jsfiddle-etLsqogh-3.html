@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>אדווה פיטוסי – קורות חיים</title>
+
+  <style>
+    body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #2b2b2b;
+}
+
+.cv {
+  max-width: 820px;
+  margin: 30px auto;
+  padding: 28px 30px;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+}
+
+.name {
+  margin: 0 0 6px 0;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.tagline {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.contact {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 14px;
+  color: #444;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #444;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.sep {
+  opacity: 0.6;
+}
+
+/* Dividers */
+.divider {
+  border: 0;
+  border-top: 1px solid #d6cfc7;
+  margin: 18px 0;
+  opacity: 0.9;
+}
+
+/* Sections */
+.section {
+  text-align: right;
+}
+
+.section-title {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: 800;
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 6px;
+  color: #2b2b2b; /* קריא תמיד */
+}
+
+/* צבעים לרקע הכותרות */
+.t1 { background-color: #cfeeee; }
+.t2 { background-color: #f3c6e8; }
+.t3 { background-color: #d9eadf; }
+.t4 { background-color: #e3d9f2; }
+.t5 { background-color: #ffe0cc; }
+
+.paragraph {
+  margin: 0;
+  line-height: 1.7;
+  font-size: 14.5px;
+}
+
+/* Items (תפקידים/השכלה) */
+.item-title {
+  margin: 14px 0 4px 0;
+  font-size: 15.5px;
+  font-weight: 800;
+  color: #2b2b2b;
+  display: inline-block; /* חשוב כדי שרקע ייראה */
+  padding: 4px 10px;     /* חשוב כדי שרקע ייראה */
+  border-radius: 4px;
+}
+
+/* אם לא רוצים רקע על כותרת מסוימת */
+.item-title.no-bg {
+  background: transparent !important;
+  padding: 0;
+  border-radius: 0;
+}
+
+.meta {
+  font-size: 13px;
+  opacity: 0.85;
+  margin-bottom: 8px;
+}
+
+/* Lists */
+.bullets {
+  margin: 0 0 6px 0;
+  padding-right: 18px; /* RTL */
+  line-height: 1.7;
+  font-size: 14.5px;
+}
+
+.bullets li {
+  margin: 3px 0;
+}
+/* תיקון רשימות ל-RTL */
+.bullets {
+  direction: rtl;
+  list-style-position: inside;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+  </style>
+
+  
+</head>
+<body>
+  <div class="cv">
+    <header class="header">
+      <h1 class="name">אדווה פיטוסי</h1>
+      <p class="tagline">יזמת | מחקר ואיתור מידע | תמלול משפטי</p>
+
+      <div class="contact">
+        <span>טבריה</span>
+        <span class="sep">|</span>
+        <span>054-2844648</span>
+        <span class="sep">|</span>
+        <a href="mailto:advafitussi@gmail.com">advafitussi@gmail.com</a>
+      </div>
+    </header>
+
+    <hr class="divider" />
+
+    <section class="section" id="profile">
+      <h2 class="section-title t1">פרופיל אישי</h2>
+      <p class="paragraph">
+        יזמת ובעלת תואר במדעי הנדסת מזון, משלבת חשיבה אנליטית, דיוק ויכולת מחקר עם
+        אוריינטציה טכנולוגית. בעלת ניסיון בעבודה הדורשת ריכוז גבוה, ניתוח מידע, סדר
+        ועמידה בלוחות זמנים. דוברת עברית ואנגלית ברמת שפת אם, עם רצון מתמיד ללמוד ולהתפתח.
+      </p>
+    </section>
+
+    <hr class="divider" />
+
+    <section class="section" id="experience">
+      <h2 class="section-title t2">ניסיון תעסוקתי</h2>
+
+      <div class="job">
+        <h3 class="item-title no-bg">תמלול דיונים לבתי משפט</h3>
+        <div class="meta">עצמאית / פרילנס</div>
+        <ul class="bullets">
+          <li>תמלול מדויק של דיונים משפטיים והקלטות מורכבות</li>
+          <li>עבודה תחת לוחות זמנים קפדניים</li>
+          <li>הקפדה על סודיות, דיוק וירידה לפרטים</li>
+          <li>היכרות עם שפה משפטית ופורמטים רשמיים</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <!-- פה הדגשנו עם t2 -->
+        <h3 class="item-title t2">מחקר ואיתור מידע באינטרנט</h3>
+        <div class="meta">עצמאית / פרילנס</div>
+        <ul class="bullets">
+          <li>איתור, ניתוח ואימות מידע ממקורות מקוונים מגוונים</li>
+          <li>עבודה עם מקורות מידע פתוחים, מאגרי מידע ורשתות דיגיטליות</li>
+          <li>סיכום והצגת מידע באופן ברור ומובנה</li>
+          <li>חשיבה ביקורתית והצלבת מקורות</li>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <section class="section" id="education">
+      <h2 class="section-title t3">השכלה</h2>
+
+      <div class="edu">
+        <h3 class="item-title no-bg">תואר ראשון B.Sc. בהנדסת מזון</h3>
+        <div class="meta">המכללה האקדמית תל חי • סיום בשנת 2016</div>
+      </div>
+
+      <div class="edu">
+        <h3 class="item-title no-bg">לימודי תכנות</h3>
+        <div class="meta">She Codes</div>
+        <ul class="bullets">
+          <li>לימודי יסודות התכנות</li>
+          <li>פיתוח חשיבה לוגית ואלגוריתמית</li>
+          <li>עבודה עם כלים דיגיטליים וטכנולוגיים</li>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <section class="section" id="languages">
+      <h2 class="section-title t4">שפות</h2>
+      <ul class="bullets">
+        <li>עברית – שפת אם</li>
+        <li>אנגלית – שפת אם</li>
+      </ul>
+    </section>
+
+    <hr class="divider" />
+
+    <section class="section" id="skills">
+      <h2 class="section-title t5">כישורים נוספים</h2>
+      <ul class="bullets">
+        <li>רישיון נהיגה בתוקף</li>
+        <li>יכולת מחקר ואיתור מידע</li>
+        <li>ירידה לפרטים ודיוק גבוה</li>
+        <li>אחריות ועמידה בלוחות זמנים</li>
+        <li>יכולת למידה עצמאית גבוהה</li>
+        <li>עבודה עצמאית ובצוות</li>
+      </ul>
+    </section>
+  </div>
+
+  <script>
+    
+  </script>
+</body>
+</html>
